@@ -8,6 +8,10 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'SMKX',
   description: '2024 서울 기계식 키보드 엑스포',
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+  },
 }
 
 export default function RootLayout({
@@ -29,7 +33,6 @@ export default function RootLayout({
             gtag('config', '${gaId}');
           `}
         </Script>
-        <link rel="icon" href="/favicon.ico?" sizes="any" />
       </head>
       <body className={`${inter.className} bg-stone-50`}>
         <div className="max-w-7xl mx-auto">
