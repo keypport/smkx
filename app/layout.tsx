@@ -40,7 +40,7 @@ export default function RootLayout({
             2024 서울 기계식 키보드 엑스포
           </div>
           {children}
-        </div>;
+        </div>
       </body>
     </html>
   )
