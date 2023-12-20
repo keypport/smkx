@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'SMKX',
-  description: 'Developed by keypport',
+  description: '2024 서울 기계식 키보드 엑스포',
 }
 
 export default function RootLayout({
