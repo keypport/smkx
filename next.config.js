@@ -5,7 +5,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'smkx.s3.ap-northeast-2.amazonaws.com'
+        hostname: 'imgur.com'
       },
     ],
     minimumCacheTTL: 24 * 60 * 60,
