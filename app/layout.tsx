@@ -36,7 +36,7 @@ export default function RootLayout({
       </head>
       <body className={`${inter.className} bg-stone-50`}>
         <div className="max-w-7xl mx-auto">
-          <div className='text-center text-3xl font-semibold leading-8 p-4 md:p-12'>
+          <div className='text-center text-xl md:text-3xl font-semibold leading-8 p-4 md:p-12'>
             2024 서울 기계식 키보드 엑스포
           </div>
           {children}
