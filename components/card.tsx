@@ -35,17 +35,17 @@ export default function Card({
           <Image className="rounded-full mx-auto" width={128} height={128} src={company['썸네일']} alt="업체" />
         </div>
         <div className="p-4">
-          <h3 className={`text-center text-3xl font-semibold leading-8`}>
+          <h3 className={`text-center text-lg md:text-xl font-semibold leading-8`}>
             {company.업체}
           </h3>
-          <h3 className="text-center text-xl leading-8 pt-2 pb-6">
+          <h3 className="text-center text-lg md:text-xl leading-8 pt-2 pb-6">
             <Link href={`${company.링크}`} target="_blank">
               <button className={`${bgColor} hover:bg-blue-700 text-sm text-white font-bold py-2 px-4 rounded`}>
                 링크
               </button>
             </Link>
           </h3>
-          <div className="grid gap-4 text-lg">
+          <div className="grid gap-4 text-sm md:text-base">
             <div className="flex flex-row gap-4">
                 <div className='flex-none w-20 font-semibold'>부스 위치</div>
                 <div className='flex-auto'>{company['부스 위치']}</div>
