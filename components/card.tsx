@@ -32,7 +32,7 @@ export default function Card({
     <div className="max-w-lg text-black">
       <div className={`${bgColor} shadow-xl rounded-lg py-3`}>
         <div className="photo-wrapper p-2">
-            <Image className="rounded-full mx-auto" width={128} height={128} src={company['썸네일']} alt="업체"/>
+            <Image className="rounded-full mx-auto" width={128} height={128} src={company['썸네일']} alt="업체" />
         </div>
         <div className="pb-4 px-4">
             <h3 className="text-center text-3xl font-semibold leading-8 pt-2">{company.업체}</h3>
