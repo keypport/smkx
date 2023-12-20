@@ -2,6 +2,7 @@
   "name": "smkx",
   "author": "keypport",
   "version": "0.1.0",
+  "license": "MIT",
   "homepage": "https://keypport.github.io/smkx/",
   "scripts": {
     "dev": "next dev",
