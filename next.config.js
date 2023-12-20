@@ -16,7 +16,7 @@ const nextConfig = {
   },
   assetPrefix:
     process.env.NODE_ENV === 'production'
-      ? 'https://keypport.github.io/smkx'
+      ? 'https://keypport.github.io/smkx/'
       : '',
 }
 
