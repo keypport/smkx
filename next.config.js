@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
   images: {
     remotePatterns: [
       {
@@ -13,6 +14,10 @@ const nextConfig = {
     ],
     minimumCacheTTL: 24 * 60 * 60,
   },
+  assetPrefix:
+    process.env.NODE_ENV === 'production'
+      ? 'https://keypport.github.io/smkx'
+      : '',
 }
 
 module.exports = nextConfig
