@@ -9,7 +9,7 @@ export default function Card({
 }) {
 
   const displayProducts = company['전시 제품'].split(',');
-  const saleProducts = company['판매 상품'].split(',');
+  const saleProducts = company['판매 제품'].split(',');
   const giveaways = company['경품'].split(',');
   const events = company['부스 이벤트'].split(',');
 
@@ -31,11 +31,11 @@ export default function Card({
   return (
     <div className="max-w-lg text-black">
       <div className={`shadow-xl rounded-lg py-3 bg-white`}>
-        <div className={`photo-wrapper p-2`}>
+        <div className={`photo-wrapper pt-2`}>
           <Image className="rounded-full mx-auto" width={128} height={128} src={company['썸네일']} alt="업체" />
         </div>
         <div className="p-4">
-          <h3 className={`text-center text-3xl font-semibold leading-8 pt-4`}>
+          <h3 className={`text-center text-3xl font-semibold leading-8`}>
             {company.업체}
           </h3>
           <h3 className="text-center text-xl leading-8 pt-2 pb-6">
@@ -47,8 +47,8 @@ export default function Card({
           </h3>
           <div className="grid gap-4 text-lg">
             <div className="flex flex-row gap-4">
-                <div className='flex-none w-20 font-semibold'>구역</div>
-                <div className='flex-auto'>{company.구역}</div>
+                <div className='flex-none w-20 font-semibold'>부스 위치</div>
+                <div className='flex-auto'>{company['부스 위치']}</div>
             </div>
             <div className="flex flex-row gap-4">
                 <div className='flex-none w-20 font-semibold'>전시 제품</div>
@@ -61,7 +61,7 @@ export default function Card({
                 </div>
             </div>
             <div className="flex flex-row gap-4">
-                <div className='flex-none w-20 font-semibold'>판매 상품</div>
+                <div className='flex-none w-20 font-semibold'>판매 제품</div>
                 <div className='flex-auto grid gap-1'>
                     {
                       saleProducts.map((product, index) => {

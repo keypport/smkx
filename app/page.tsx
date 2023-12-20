@@ -4,7 +4,7 @@ import { Company } from '@/interfaces';
 
 export default function Home() {
   const data: Array<Company> = require('/public/data.json');
-  const companyGroups = _.groupBy(data, (company) => company['구역'][0]);
+  const companyGroups = _.groupBy(data, (company) => company['부스 위치'][0]);
   const zones = Object.keys(companyGroups);
 
   return (
