@@ -9,8 +9,8 @@ export const metadata: Metadata = {
   title: 'SMKX',
   description: '2024 서울 기계식 키보드 엑스포',
   icons: {
-    icon: '/favicon.ico',
-    shortcut: '/favicon.ico',
+    icon: `${process.env.NEXT_PUBLIC_BASE_PATH}/favicon.ico`,
+    shortcut: `${process.env.NEXT_PUBLIC_BASE_PATH}/favicon.ico`,
   },
 }
 
