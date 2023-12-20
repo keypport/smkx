@@ -5,14 +5,11 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'scontent-ssn1-1.cdninstagram.com',
+        hostname: 'smkx.s3.ap-northeast-2.amazonaws.com'
       },
-      {
-        protocol: 'https',
-        hostname: 'shop-phinf.pstatic.net'
-      }
     ],
     minimumCacheTTL: 24 * 60 * 60,
+    unoptimized: true,
   },
   assetPrefix:
     process.env.NODE_ENV === 'production'
