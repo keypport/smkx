@@ -29,7 +29,7 @@ export default function RootLayout({
             gtag('config', '${gaId}');
           `}
         </Script>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.ico?" sizes="any" />
       </head>
       <body className={`${inter.className} bg-stone-50`}>
         <div className="max-w-7xl mx-auto">
