@@ -1,5 +1,6 @@
 import { Company } from '@/interfaces';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Card({
     company
@@ -34,7 +35,10 @@ export default function Card({
             <Image className="rounded-full mx-auto" width={128} height={128} src={company['썸네일']} alt="업체"/>
         </div>
         <div className="pb-4 px-4">
-            <h3 className="text-center text-3xl font-semibold leading-8 pt-2 pb-6">{company.업체}</h3>
+            <h3 className="text-center text-3xl font-semibold leading-8 pt-2">{company.업체}</h3>
+            <h3 className="text-center text-xl leading-8 pt-2 pb-6">
+              <Link href={`${company.링크}`} target="_blank">링크</Link>
+            </h3>
             <div className="grid gap-4 text-lg">
               <div className="flex flex-row gap-4">
                   <div className='flex-none w-20 font-semibold'>구역</div>
