@@ -20,7 +20,7 @@ export default function MapAlertDialog() {
     <React.Fragment>
       <div className='fixed bottom-0 w-full right-4 md:right-10'>
         <button className='my-4 md:my-10 float-right px-2 py-2 bg-sky-400 text-white text-base md:text-lg font-bold tracking-wide rounded-full focus:outline-none' onClick={handleClickOpen}>
-          지도
+          배치도
         </button>
       </div>
       <Dialog
