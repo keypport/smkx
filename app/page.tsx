@@ -24,6 +24,7 @@ export default function Home() {
           )
         })
       }
+      <div className='pb-24'/>
     </div>
   )
 }
