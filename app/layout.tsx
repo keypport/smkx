@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import Script from 'next/script'
+import MapAlertDialog from '@/components/map-alert-dialog'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -41,6 +42,7 @@ export default function RootLayout({
           </div>
           {children}
         </div>
+        <MapAlertDialog />
       </body>
     </html>
   )
