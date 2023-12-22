@@ -13,6 +13,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.15.1",
     "lodash": "^4.17.21",
     "next": "14.0.4",
     "react": "^18",
