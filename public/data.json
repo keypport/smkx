@@ -5,9 +5,9 @@
     "업체": "KLC",
     "썸네일": "https://i.imgur.com/lOsp8Ur.jpeg",
     "링크": "https://smartstore.naver.com/klc-playground",
-    "전시 제품": "컴퓨터 케이스 (아티산 업체 콜라보)\nNamong x Zalman 컴퓨터 케이스\nGeekkeey x Zalman 컴퓨터 케이스\n노리 신규 색상 프로토타입\nTGR, Singa KBD, Densus, Linworks, Syryan Industry, KLC 키보드 제품군",
+    "전시 제품": "Namong x Zalman 컴퓨터 케이스\nGeekkeey x Zalman 컴퓨터 케이스\n노리 신규 색상 프로토타입\nKLC Partners 제품군",
     "부스 이벤트": "",
-    "판매 제품": "TGR Lena Amethyst Purple\nSinga Kohaku Amethyst Pruple\nKLC Serra 65\n노리 스프링라이더\nRubrehose Switch\nRubrehose Artisans, Artikey Universe Artisan",
+    "판매 제품": "TGR Lena Amethyst Purple (래플판매)\nSinga Kohaku Amethyst Pruple (래플판매)\nKLC Serra 65\n노리 스프링라이더\nRubrehose Switch\nRubrehose Artisans, Artkey Universe Artisan",
     "경품": "Singa Kohaku Amethyst Pruple 3대\n노리 스프링라이더 6대"
   },
   {
@@ -29,7 +29,7 @@
     "링크": "https://artkeyuniverse.com/",
     "전시 제품": "Artkey Universe Products",
     "부스 이벤트": "",
-    "판매 제품": "Taekwon Bot Serius (추첨판매)",
+    "판매 제품": "Taekwon Bot Serius (래플판매)",
     "경품": ""
   },
   {
@@ -62,7 +62,7 @@
     "링크": "https://smartstore.naver.com/swagkey",
     "전시 제품": "Shelby65, Transition nor, Transition Lite, Owlab Products, Qwertykeys Series, Neo Series, Matrix Lab Products, TKD Producs, Am Relic 80, Sonet, Tempo, Bauer Lite, Model OLED, New Switches",
     "부스 이벤트": "부스 방문객 전원 자사 팜플렛, 코코 스티커 배부 및 신규 스위치 샘플 증정",
-    "판매 제품": "SW 신규 키캡 4종 (SW Dolch, SW Graphite, SW BoW, SW Veriperi),\nSW 특주 스위치 (SWK Catmint, HMX Pearl, HMX Garnet, TTC Peanut Latte),\nSW 나이트 스테빌 (일반클리어, 롱폴클리어), 윤활용품 6종 세트 (윤활붓, 스템픽커, 스위치오프너, 키캡풀러, 스위치풀러, 스테빌교정기)",
+    "판매 제품": "SW Foundation R2, SW Veriperi Keycaps\nSWK Catmint, TTC Peanut Latte, HMX Milky White, Haimu Metal Pole \nSW 나이트 스테빌 , 윤활용품 6종 세트",
     "경품": "윤활붓, 핀셋, 아티산"
   },
   {
@@ -71,7 +71,7 @@
     "업체": "Keykobo",
     "썸네일": "https://i.imgur.com/JZwb8Za.jpeg",
     "링크": "https://www.keykobo.com/",
-    "전시 제품": "",
+    "전시 제품": "KKB Keycaps",
     "부스 이벤트": "",
     "판매 제품": "",
     "경품": ""
@@ -93,10 +93,10 @@
     "업체": "Namong Art",
     "썸네일": "https://i.imgur.com/a1sOcFf.png",
     "링크": "https://www.instagram.com/namong.art/",
-    "전시 제품": "Napia Friends Artisan Keycaps",
+    "전시 제품": "Napia Friends Artisan Knob, Napia Friends Artisan Keycaps",
     "부스 이벤트": "",
-    "판매 제품": "",
-    "경품": "Cookie Artisan 2ea, T-Shirt 2ea"
+    "판매 제품": "유령&쿠키 키캡 할인판매, GSK콜라보 유니콘루도리 (엑스포한정 래플판매)",
+    "경품": "Cookie Artisan 2ea, Ghost Artisan 2ea, T-Shirts"
   },
   {
     "부스 위치": "C1",
@@ -116,9 +116,9 @@
     "썸네일": "https://i.imgur.com/4YvyK72.png",
     "링크": "https://www.instagram.com/nirheart/",
     "전시 제품": "밈케릭터, 기존작품",
-    "부스 이벤트": "기존작품 소개 브로셔, 아티산제작 수강생 모집",
+    "부스 이벤트": "기존작품 소개 브로셔",
     "판매 제품": "",
-    "경품": "컨트리볼 한국"
+    "경품": "컨트리볼 한국 3ea"
   },
   {
     "부스 위치": "C2-B",
@@ -127,9 +127,9 @@
     "썸네일": "https://i.imgur.com/qXszib6.jpg",
     "링크": "https://www.instagram.com/jjo_cap/",
     "전시 제품": "JJOCAP 아티산 전시",
-    "부스 이벤트": "기존작품 소개 브로셔, 아티산제작 수강생 모집",
+    "부스 이벤트": "아티산제작 수강생 모집",
     "판매 제품": "",
-    "경품": "컨트리볼 한국"
+    "경품": ""
   },
   {
     "부스 위치": "C3-A",
@@ -137,7 +137,7 @@
     "업체": "Dot.KEyng",
     "썸네일": "https://i.imgur.com/jby3qPg.jpg",
     "링크": "https://www.instagram.com/dot.keyng/",
-    "전시 제품": "",
+    "전시 제품": "Pippi Friends, Girl Friends Artisans",
     "부스 이벤트": "",
     "판매 제품": "",
     "경품": ""
@@ -148,10 +148,10 @@
     "업체": "TOYCAP",
     "썸네일": "https://i.imgur.com/xK9I7XD.jpg",
     "링크": "https://www.instagram.com/toycapstudio/",
-    "전시 제품": "",
-    "부스 이벤트": "",
-    "판매 제품": "",
-    "경품": ""
+    "전시 제품": "Toycap Friends Products",
+    "부스 이벤트": "SNS인증시 현장판매 제품 10%할인",
+    "판매 제품": "신제품 공룡 아티산 현장판매",
+    "경품": "Mictlan Color Artisan 3ea"
   },
   {
     "부스 위치": "C4-A",
@@ -161,7 +161,7 @@
     "링크": "https://rubrehose.com/",
     "전시 제품": "BBW, BBC Artisans",
     "부스 이벤트": "",
-    "판매 제품": "한정 아티산 (래플 당첨시 판매 - 30ea)",
+    "판매 제품": "Seoul Searching BBC (래플판매 - 30ea)",
     "경품": ""
   },
   {
@@ -180,7 +180,7 @@
     "카테고리": "키보드",
     "업체": "Della",
     "썸네일": "https://i.imgur.com/XId3fy0.jpeg",
-    "링크": "https://www.instagram.com/della__key/",
+    "링크": "https://discord.gg/qr5affrqeY",
     "전시 제품": "Della 960, Sanctuary Artisan Case",
     "부스 이벤트": "Della 리유저블백 증정 (SNS 인증시)",
     "판매 제품": "Della key 장패드 3종, Sanctuary (공제, 수량한정)",
@@ -192,7 +192,7 @@
     "업체": "CafeGe",
     "썸네일": "https://i.imgur.com/32WjJKi.jpg",
     "링크": "https://cafege.com.au/",
-    "전시 제품": "",
+    "전시 제품": "Tiger 80 Proto, Tiger 60 Proto",
     "부스 이벤트": "",
     "판매 제품": "",
     "경품": ""
@@ -202,11 +202,11 @@
     "카테고리": "키보드",
     "업체": "KEYNETIX",
     "썸네일": "https://i.imgur.com/JrpYx1t.jpeg",
-    "링크": "https://keynetix.kr/",
-    "전시 제품": "",
+    "링크": "https://smartstore.naver.com/keynetix",
+    "전시 제품": "Keynetix x SR Kelvin Proto, Keynetix x Bsun Switches Proto, Chosfox CF81 Pro, Chosfox minpeg48, ChosFox kowgary16",
     "부스 이벤트": "",
-    "판매 제품": "",
-    "경품": ""
+    "판매 제품": "Keynetix x Bsun Switches, Keynetix x Sandun 츄잉아티산, Paw65 어셈블에디션키보드, ChosFox CF81 키보드, ChosFox 스위치풀러",
+    "경품": "ChosFox 키보드캐리백 6ea, ChosFox 신규스위치 2종"
   },
   {
     "부스 위치": "D3",
@@ -217,7 +217,7 @@
     "전시 제품": "Twilight Basic, Twilight TKL, Rose75",
     "부스 이벤트": "",
     "판매 제품": "",
-    "경품": ""
+    "경품": "Rose Limited Edition 1ea"
   },
   {
     "부스 위치": "D4-A",
@@ -225,10 +225,10 @@
     "업체": "SINGA KBD",
     "썸네일": "https://i.imgur.com/Eifs9FW.jpg",
     "링크": "https://singakbd.com/",
-    "전시 제품": "Kohaku 1st Proto, Jane V2 Ce, Police, Kohaku, Unikorn, 910",
+    "전시 제품": "Kohaku PC, Kohaku, Unikorn",
     "부스 이벤트": "",
     "판매 제품": "",
-    "경품": "Rose Limited Edition 1ea"
+    "경품": ""
   },
   {
     "부스 위치": "D4-B",
@@ -236,7 +236,7 @@
     "업체": "TGR",
     "썸네일": "https://i.imgur.com/KOZD47s.jpg",
     "링크": "https://ttggrr.cc/",
-    "전시 제품": "",
+    "전시 제품": "Jane V2 Ce, Police, 910",
     "부스 이벤트": "",
     "판매 제품": "",
     "경품": ""
@@ -261,7 +261,7 @@
     "전시 제품": "Glorious GMMK Pro Custom, GMMK Numpad",
     "부스 이벤트": "",
     "판매 제품": "",
-    "경품": "Glorious GMMK Numpad White 2ea"
+    "경품": "Glorious GMMK Numpad White 1ea"
   },
   {
     "부스 위치": "E1-B",
@@ -290,8 +290,8 @@
     "카테고리": "아티산",
     "업체": "Madchanical Keyboards",
     "썸네일": "https://i.imgur.com/PsTFWma.jpg",
-    "링크": "",
-    "전시 제품": "",
+    "링크": "https://blog.naver.com/dlrldnjs4472",
+    "전시 제품": "Curkey Ergo Ver.1, Curkey Ergo Ver.2, Curkey Ergo Ver.3, Bium Proto, Goyo Proto, Aluminum PCB Sample",
     "부스 이벤트": "",
     "판매 제품": "",
     "경품": ""
@@ -324,10 +324,10 @@
     "업체": "GMK",
     "썸네일": "https://i.imgur.com/TxbIdqM.png",
     "링크": "https://www.gmk-electronic-design.de/en/",
-    "전시 제품": "",
+    "전시 제품": "GMK Keycaps, GMK Goods",
     "부스 이벤트": "",
     "판매 제품": "",
-    "경품": ""
+    "경품": "GMK Expo 키캡 (관람객전원제공), GMK Keycaps, GMK Caps"
   },
   {
     "부스 위치": "F2",
@@ -346,9 +346,9 @@
     "업체": "지온웍스",
     "썸네일": "https://i.imgur.com/IhNrVa6.jpg",
     "링크": "https://smartstore.naver.com/geonlab",
-    "전시 제품": "Geonworks 전제품, 빈티지 제품, 키캡, 스위치류, 베놈 PCB, Aiglatson: Constance TKL 프로토타입 외,  Gok: Type K, Lily 프로토타입 외,\nMachina: Orbit65, Cloud Nine 프로토타입 외, Han's: Reborn67 외, KBDfans: KBD67 프로토타입 외, Aregs: Kyubi 프로토타입 외,\nWuque Studio: Freya 프로토타입 외, Gateron: 10주년 기념 샘플 외, Tecsee: 신규 스위치 샘플 외, Baion: 미정, Keycult: 미정",
+    "전시 제품": "Geonworks 전제품, 빈티지 제품, 키캡, 스위치류, 베놈 PCB, Aiglatson: Constance TKL 프로토 외,  Gok: Type K, Lily 프로토 외,\nMachina: Orbit65, Cloud Nine 프로토 외, Han's: Reborn67 외, KBDfans: KBD67 프로토 외, Aregs: Kyubi 프로토 외,\nWuque Studio: Freya 프로토 외, Gateron: 10주년 기념 샘플 외, Tecsee: 신규 스위치 샘플 외",
     "부스 이벤트": "",
-    "판매 제품": "F1-8x V2 레드 컬러-행사 전용 뱃지, 키캡 및 스위치류",
+    "판매 제품": "F1-8x V2 엑스포 레드 (공제) , 키캡 및 스위치류",
     "경품": ""
   }
 ]
