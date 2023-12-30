@@ -3,6 +3,8 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Script from 'next/script'
 import MapAlertDialog from '@/components/map-alert-dialog'
+import { Image } from '@/interfaces'
+import ScheduleAlertDialog from '@/components/schedule-alert-dialog copy'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,6 +23,9 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   const gaId = 'G-J7T26EBV3J';
+  const images: Array<Image> = require('/public/images.json');
+  const sizes = 'h-[370px] md:h-[1000px]';
+
   return (
     <html lang="en">
       <head>
@@ -45,6 +50,7 @@ export default function RootLayout({
           </div>
           {children}
         </div>
+        <ScheduleAlertDialog images={images} sizes={sizes} />
         <MapAlertDialog />
       </body>
     </html>
