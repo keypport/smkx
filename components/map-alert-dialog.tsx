@@ -19,7 +19,7 @@ export default function MapAlertDialog() {
   return (
     <React.Fragment>
       <div className='fixed bottom-0 w-full right-4 md:right-10'>
-        <button className='my-4 md:my-10 float-right px-2 py-2 bg-sky-400 text-white text-base md:text-lg font-bold tracking-wide rounded-full focus:outline-none' onClick={handleClickOpen}>
+        <button className='my-4 md:my-10 float-right px-2 py-2 bg-sky-400 text-white text-xs md:text-lg font-bold tracking-wide rounded-full focus:outline-none' onClick={handleClickOpen}>
           배치도<br/>Map
         </button>
       </div>
@@ -44,8 +44,8 @@ export default function MapAlertDialog() {
           />
         </DialogActions>
         <DialogActions>
-          <button className='float-right px-2 py-2 bg-red-400 text-white text-base md:text-lg font-bold tracking-wide rounded-full focus:outline-none' onClick={handleClose}>
-            닫기
+          <button className='float-right px-2 py-2 bg-red-400 text-white text-xs md:text-lg font-bold tracking-wide rounded-full focus:outline-none' onClick={handleClose}>
+            닫기<br/>Close
           </button>
         </DialogActions>
       </Dialog>
