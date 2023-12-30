@@ -85,7 +85,7 @@ export default function Card({
                 </div>
             </div>
             <div className="flex flex-row gap-2 md:gap-4">
-                <div className='flex-none w-20 font-semibold'>이벤트 (Event)</div>
+                <div className='flex-none w-20 font-semibold'>이벤트<br/>(Event)</div>
                 <div className='flex-auto grid gap-1'>
                   {
                     events.map((event, index) => {
