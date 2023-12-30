@@ -15,10 +15,13 @@
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
+    "@heroicons/react": "^2.1.1",
     "@mui/material": "^5.15.1",
+    "keen-slider": "^6.8.6",
     "lodash": "^4.17.21",
     "next": "14.0.4",
     "react": "^18",
+    "react-device-detect": "^2.2.3",
     "react-dom": "^18",
     "touch-cli": "^0.0.1"
   },
