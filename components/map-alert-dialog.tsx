@@ -18,8 +18,8 @@ export default function MapAlertDialog() {
 
   return (
     <React.Fragment>
-      <div className='fixed bottom-0 w-full right-4 md:right-10'>
-        <button className='my-4 md:my-10 float-right px-2 py-2 bg-sky-400 text-white text-xs md:text-lg font-bold tracking-wide rounded-full focus:outline-none' onClick={handleClickOpen}>
+      <div className='fixed bottom-0 w-20 right-4 md:right-10'>
+        <button className='my-4 md:my-10 float-right p-3 bg-sky-400 text-white text-xs md:text-lg font-bold tracking-wide rounded-full focus:outline-none' onClick={handleClickOpen}>
           배치도<br/>Map
         </button>
       </div>
@@ -39,13 +39,13 @@ export default function MapAlertDialog() {
           <Image
             src={'https://i.imgur.com/8IIswRW.png'}
             alt="2024 서울 기계식 키보드 엑스포 지도"
-            width={2400}
-            height={2400}
+            width={1000}
+            height={1000}
           />
         </DialogActions>
         <DialogActions>
-          <button className='float-right px-2 py-2 bg-red-400 text-white text-xs md:text-lg font-bold tracking-wide rounded-full focus:outline-none' onClick={handleClose}>
-            닫기<br/>Close
+          <button className='float-right p-3 bg-red-400 text-white text-xs md:text-lg font-bold tracking-wide rounded-full focus:outline-none' onClick={handleClose}>
+            Close
           </button>
         </DialogActions>
       </Dialog>
