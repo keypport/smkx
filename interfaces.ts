@@ -9,3 +9,8 @@ export interface Company {
   '판매 제품': string;
   '경품': string;
 }
+
+export interface Image {
+  url: string;
+  name: string;
+}
