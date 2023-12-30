@@ -12,8 +12,8 @@ export const metadata: Metadata = {
   title: 'SMKX',
   description: '2024 서울 기계식 키보드 엑스포',
   icons: {
-    icon: `./favicon.ico`,
-    shortcut: `./favicon.ico`,
+    icon: `https://i.imgur.com/PsTFWma.jpg`,
+    shortcut: `https://i.imgur.com/PsTFWma.jpg`,
   },
 }
 
