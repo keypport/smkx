@@ -4,7 +4,7 @@ import './globals.css'
 import Script from 'next/script'
 import MapAlertDialog from '@/components/map-alert-dialog'
 import { Image } from '@/interfaces'
-import ScheduleAlertDialog from '@/components/schedule-alert-dialog copy'
+import ScheduleAlertDialog from '@/components/schedule-alert-dialog'
 
 const inter = Inter({ subsets: ['latin'] })
 
