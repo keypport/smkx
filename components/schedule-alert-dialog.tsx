@@ -27,7 +27,7 @@ export default function ScheduleAlertDialog({
     <React.Fragment>
       <div className='fixed bottom-0 w-20 right-24 md:right-36'>
         <button className='my-4 md:my-10 float-right p-3 bg-sky-400 text-white text-xs md:text-lg font-bold tracking-wide rounded-full focus:outline-none' onClick={handleClickOpen}>
-          시간표<br/>Schedule
+          일정표<br/>Schedule
         </button>
       </div>
       <Dialog
