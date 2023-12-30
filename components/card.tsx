@@ -41,17 +41,17 @@ export default function Card({
           <h3 className="text-center text-base md:text-base leading-8 pt-0 pb-4 md:pt-2 md:pb-6">
             <Link href={`${company.링크}`} target="_blank">
               <button className={`${bgColor} hover:bg-blue-700 text-xs text-white font-bold py-2 px-4 rounded`}>
-                링크
+                링크 (Link)
               </button>
             </Link>
           </h3>
           <div className="grid gap-2 md:gap-4 text-xs md:text-sm">
             <div className="flex flex-row gap-2 md:gap-4">
-                <div className='flex-none w-20 font-semibold'>부스 위치</div>
+                <div className='flex-none w-20 font-semibold'>부스 위치 (Booth)</div>
                 <div className='flex-auto'>{company['부스 위치']}</div>
             </div>
             <div className="flex flex-row gap-2 md:gap-4">
-                <div className='flex-none w-20 font-semibold'>전시 제품</div>
+                <div className='flex-none w-20 font-semibold'>전시 제품 (Exhibition)</div>
                 <div className='flex-auto grid gap-1'>
                   { displayProducts.map((product, index) => {
                     return (
@@ -61,7 +61,7 @@ export default function Card({
                 </div>
             </div>
             <div className="flex flex-row gap-2 md:gap-4">
-                <div className='flex-none w-20 font-semibold'>판매 제품</div>
+                <div className='flex-none w-20 font-semibold'>판매 제품 (Sale)</div>
                 <div className='flex-auto grid gap-1'>
                     {
                       saleProducts.map((product, index) => {
@@ -73,7 +73,7 @@ export default function Card({
                 </div>
             </div>
             <div className="flex flex-row gap-2 md:gap-4">
-                <div className='flex-none w-20 font-semibold'>경품</div>
+                <div className='flex-none w-20 font-semibold'>경품<br/>(Prize)</div>
                 <div className='flex-auto grid gap-1'>
                   {
                     giveaways.map((giveaway, index) => {
@@ -85,7 +85,7 @@ export default function Card({
                 </div>
             </div>
             <div className="flex flex-row gap-2 md:gap-4">
-                <div className='flex-none w-20 font-semibold'>이벤트</div>
+                <div className='flex-none w-20 font-semibold'>이벤트 (Event)</div>
                 <div className='flex-auto grid gap-1'>
                   {
                     events.map((event, index) => {
