@@ -90,4 +90,7 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
+        env:
+          NODE_ENV: ${{ vars.NODE_ENV }}
+          NEXT_PUBLIC_BASE_PATH: ${{ vars.NEXT_PUBLIC_BASE_PATH }}
         uses: actions/deploy-pages@v4
