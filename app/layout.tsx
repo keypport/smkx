@@ -7,6 +7,7 @@ import { Image } from '@/interfaces'
 import NextImage from 'next/image'
 import _, { Dictionary } from 'lodash'
 import TableSliderAlertDialog from '@/components/table-slider-alert-dialog'
+import Link from 'next/link'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -78,6 +79,14 @@ export default function RootLayout({
         <ImageAlertDialog buttonName={{kr: '배치도', en: 'Map'}} image={mapImage} location={mapLocation} />
         <TableSliderAlertDialog tables={prizeTables} sizes={sizes} buttonName={{kr: '경품', en: 'Prize'}} location={prizeAlertLocation} />
         <TableSliderAlertDialog tables={productTables} sizes={sizes} buttonName={{kr: '한정판', en: 'Raffle'}} location={productAlertLocation} />
+
+        <div className='grid'>
+          <div className="text-sm md:text-lg text-stone-400 font-bold justify-self-center px-2 pb-2">
+            <Link href={'https://discord.com/users/904605661399244800'}>
+              문의: keypport
+            </Link>
+          </div>
+        </div>
       </body>
     </html>
   )
