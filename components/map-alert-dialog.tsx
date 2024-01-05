@@ -37,7 +37,7 @@ export default function MapAlertDialog() {
       >
         <DialogActions>
           <Image
-            src={'https://i.imgur.com/8IIswRW.png'}
+            src={'https://i.imgur.com/umr9Pkf.png'}
             alt="2024 서울 기계식 키보드 엑스포 지도"
             width={1000}
             height={1000}
