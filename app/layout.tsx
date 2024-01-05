@@ -2,10 +2,11 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 import Script from 'next/script'
-import MapAlertDialog from '@/components/map-alert-dialog'
+import ImageAlertDialog from '@/components/image-alert-dialog'
 import { Image } from '@/interfaces'
-import ScheduleAlertDialog from '@/components/schedule-alert-dialog'
 import NextImage from 'next/image'
+import _ from 'lodash'
+import TableSliderAlertDialog from '@/components/table-slider-alert-dialog'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,9 +25,20 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   const gaId = 'G-J7T26EBV3J';
-  const images: Array<Image> = require('/public/images.json');
-  const sizes = 'h-[370px] md:h-[1000px]';
-
+  const sizes = 'h-full';
+  const scheduleImage: Image = require('/public/schedule-image.json');
+  const scheduleLocation = 'bottom-0 right-[280px] md:right-[340px]';
+  const mapImage: Image = require('/public/map-image.json');
+  const mapLocation = `bottom-0 w-20 right-[200px] md:right-[240px]`;
+  const prizes: Array<JSON> = require('/public/prize.json');
+  const prizeGroupByTime = _.groupBy(prizes, '시간');
+  const prizeTables = Object.entries(prizeGroupByTime).map(([time, table]) => table);
+  const prizeAlertLocation = 'bottom-0 right-[120px] md:right-[150px]'; 
+  const products: Array<JSON> = require('/public/product.json');
+  const prdouctGroupByTime = _.groupBy(products, '시간');
+  const productTables = Object.entries(prdouctGroupByTime).map(([time, table]) => table);
+  const productAlertLocation = 'bottom-0 right-[20px] md:right-[30px]'
+  
   return (
     <html lang="en">
       <head>
@@ -61,8 +73,11 @@ export default function RootLayout({
           </div>
           {children}
         </div>
-        <ScheduleAlertDialog images={images} sizes={sizes} />
-        <MapAlertDialog />
+
+        <ImageAlertDialog buttonName={{kr: '일정표', en: 'Schedule'}} image={scheduleImage} location={scheduleLocation} />
+        <ImageAlertDialog buttonName={{kr: '배치도', en: 'Map'}} image={mapImage} location={mapLocation} />
+        <TableSliderAlertDialog tables={prizeTables} sizes={sizes} buttonName={{kr: '경품', en: 'Prize'}} location={prizeAlertLocation} />
+        <TableSliderAlertDialog tables={productTables} sizes={sizes} buttonName={{kr: '상품', en: 'Product'}} location={productAlertLocation} />
       </body>
     </html>
   )

@@ -3,9 +3,20 @@
 import * as React from 'react';
 import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
-import Image from 'next/image';
+import TableSlider from './table-slider';
+import { ButtonName } from '@/interfaces';
 
-export default function MapAlertDialog() {
+export default function TableSliderAlertDialog({
+  tables,
+  sizes,
+  buttonName,
+  location,
+}: {
+  tables: Array<JSON>[];
+  sizes: string;
+  buttonName: ButtonName;
+  location: string;
+}) {
   const [open, setOpen] = React.useState(false);
 
   const handleClickOpen = () => {
@@ -18,9 +29,9 @@ export default function MapAlertDialog() {
 
   return (
     <React.Fragment>
-      <div className='fixed bottom-0 w-20 right-4 md:right-10'>
+      <div className={`fixed w-20 ${location}`}>
         <button className='my-4 md:my-10 float-right p-3 bg-sky-400 text-white text-xs md:text-lg font-bold tracking-wide rounded-full focus:outline-none' onClick={handleClickOpen}>
-          배치도<br/>Map
+          {buttonName.kr}<br/>{buttonName.en}
         </button>
       </div>
       <Dialog
@@ -35,16 +46,14 @@ export default function MapAlertDialog() {
           },
         }}
       >
-        <DialogActions>
-          <Image
-            src={'https://i.imgur.com/umr9Pkf.png'}
-            alt="2024 서울 기계식 키보드 엑스포 지도"
-            width={1000}
-            height={1000}
-          />
+        <DialogActions className='flex w-96 h-96 md:w-[64rem] md:h-[64rem] justify-center'>
+          <div className="w-full h-full">
+            <TableSlider tables={tables} sizes={sizes} />
+          </div>
+
         </DialogActions>
         <DialogActions>
-          <button className='float-right p-3 bg-red-400 text-white text-xs md:text-lg font-bold tracking-wide rounded-full focus:outline-none' onClick={handleClose}>
+          <button className='fixed bottom-5/6 mb-10 float-right p-3 bg-red-400 text-white text-xs md:text-lg font-bold tracking-wide rounded-full focus:outline-none' onClick={handleClose}>
             Close
           </button>
         </DialogActions>

@@ -3,15 +3,19 @@
 import * as React from 'react';
 import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
-import { Image } from '@/interfaces';
+import { ButtonName, Image } from '@/interfaces';
 import ImageSlider from './image-slider';
 
 export default function ScheduleAlertDialog({
   images,
   sizes,
+  buttonName,
+  location,
 }: {
   images: Image[];
   sizes: string;
+  buttonName: ButtonName;
+  location: string;
 }) {
   const [open, setOpen] = React.useState(false);
 
@@ -22,12 +26,11 @@ export default function ScheduleAlertDialog({
   const handleClose = () => {
     setOpen(false);
   };
-
   return (
     <React.Fragment>
-      <div className='fixed bottom-0 w-20 right-24 md:right-36'>
+      <div className={`fixed w-20 ${location}`}>
         <button className='my-4 md:my-10 float-right p-3 bg-sky-400 text-white text-xs md:text-lg font-bold tracking-wide rounded-full focus:outline-none' onClick={handleClickOpen}>
-          일정표<br/>Schedule
+          {buttonName.kr}<br/>{buttonName.en}
         </button>
       </div>
       <Dialog
