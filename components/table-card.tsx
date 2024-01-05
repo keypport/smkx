@@ -21,7 +21,7 @@ export default function TableCard({
       table.length > 0 ?
       <div className='p-1 roudned'>
         <div className="grid w-full">
-          <div className="p-1 md:p-2 text-base md:text-xl text-stone-500 font-bold justify-self-center">경품 추첨 및 당첨자 발표 : {table[0]['시간']}</div>
+          <div className="p-1 md:p-2 text-base md:text-xl text-stone-500 font-bold justify-self-center">추첨 및 당첨자 발표 : {table[0]['시간']}</div>
         </div>
         <div className={`grid ${gridColumns[keys.length ?? 3]} gap-2 p-2 bg-sky-400 text-stone-50 text-base md:text-lg font-bold rounded`}>
           {
