@@ -5,6 +5,7 @@ import Script from 'next/script'
 import MapAlertDialog from '@/components/map-alert-dialog'
 import { Image } from '@/interfaces'
 import ScheduleAlertDialog from '@/components/schedule-alert-dialog'
+import NextImage from 'next/image'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -40,12 +41,17 @@ export default function RootLayout({
           `}
         </Script>
       </head>
-      <body className={`${inter.className} bg-stone-50`}>
+      <body className={`${inter.className} bg-stone-100`}>
         <div className="max-w-7xl mx-auto">
-          <div className='grid gap-1 md:gap-3 text-center text-xl md:text-3xl font-bold leading-8 p-2 md:p-4 mb-4 text-sky-800 border-b-2 box-border'>
-            2024 서울 기계식 키보드 엑스포
-            <div className="text-lg md:text-2xl">
-              {`[ Seoul Mechanical Keyboard Expo ]`}
+          <div className='flex flex-row gap-3 md:gap-4 items-center justify-center leading-8 px-0 md:px-4 py-2 md:py-4 mb-4 border-b-2 box-border border-stone-200'>
+            <NextImage src="https://i.imgur.com/NCuLYSW.png" width={64} height={64} alt={"서울 기계식 키보드 엑스포 로고"} />         
+            <div className='items-center justify-center grid gap-1 md:gap-3 text-center text-lg md:text-3xl font-bold text-sky-700'>
+              <div>
+                2024 서울 기계식 키보드 엑스포
+              </div>
+              <div className="text-base md:text-2xl text-sky-500">
+                {'[ Seoul Mechanical Keyboard Expo ]'}
+              </div>
             </div>
           </div>
           {children}
