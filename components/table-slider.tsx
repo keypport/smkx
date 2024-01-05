@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import _ from 'lodash';
+import _, { Dictionary } from 'lodash';
 import { IconButton } from '@mui/material';
 import {
   ChevronLeftIcon,
@@ -79,7 +79,7 @@ export default function TableSlider({
   tables,
   sizes,
 }: {
-  tables: Array<JSON>[];
+  tables: Array<Dictionary<String>>[];
   sizes: string;
 }) {
   const [activeIndex, setActiveIndex] = useState<number>(0);

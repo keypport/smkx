@@ -5,7 +5,7 @@ import Script from 'next/script'
 import ImageAlertDialog from '@/components/image-alert-dialog'
 import { Image } from '@/interfaces'
 import NextImage from 'next/image'
-import _ from 'lodash'
+import _, { Dictionary } from 'lodash'
 import TableSliderAlertDialog from '@/components/table-slider-alert-dialog'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -30,11 +30,11 @@ export default function RootLayout({
   const scheduleLocation = 'bottom-0 right-[280px] md:right-[340px]';
   const mapImage: Image = require('/public/map-image.json');
   const mapLocation = `bottom-0 w-20 right-[200px] md:right-[240px]`;
-  const prizes: Array<JSON> = require('/public/prize.json');
+  const prizes: Array<Dictionary<String>> = require('/public/prize.json');
   const prizeGroupByTime = _.groupBy(prizes, '시간');
   const prizeTables = Object.entries(prizeGroupByTime).map(([time, table]) => table);
   const prizeAlertLocation = 'bottom-0 right-[120px] md:right-[150px]'; 
-  const products: Array<JSON> = require('/public/product.json');
+  const products: Array<Dictionary<String>> = require('/public/product.json');
   const prdouctGroupByTime = _.groupBy(products, '시간');
   const productTables = Object.entries(prdouctGroupByTime).map(([time, table]) => table);
   const productAlertLocation = 'bottom-0 right-[20px] md:right-[30px]'

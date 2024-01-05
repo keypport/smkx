@@ -1,3 +1,5 @@
+import { Dictionary } from "lodash";
+
 type gridColumnsType = {
   [key: number]: string;
 }
@@ -10,7 +12,7 @@ const gridColumns: gridColumnsType = {
 export default function TableCard({
     table,
 }: {
-    table: Array<JSON>;
+    table: Array<Dictionary<String>>;
 }) {
   const tableKeylength = Object.keys(table[0]).length;
   

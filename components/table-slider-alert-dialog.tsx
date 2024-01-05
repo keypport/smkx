@@ -5,6 +5,7 @@ import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
 import TableSlider from './table-slider';
 import { ButtonName } from '@/interfaces';
+import { Dictionary } from 'lodash';
 
 export default function TableSliderAlertDialog({
   tables,
@@ -12,7 +13,7 @@ export default function TableSliderAlertDialog({
   buttonName,
   location,
 }: {
-  tables: Array<JSON>[];
+  tables: Array<Dictionary<String>>[];
   sizes: string;
   buttonName: ButtonName;
   location: string;
