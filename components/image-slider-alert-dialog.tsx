@@ -28,7 +28,7 @@ export default function ScheduleAlertDialog({
   };
   return (
     <React.Fragment>
-      <div className={`fixed w-20 bottom-0 ${location}`}>
+      <div className={`fixed w-20 ${location}`}>
         <button className='my-4 md:my-10 float-right p-3 bg-sky-400 text-white text-xs md:text-lg font-bold tracking-wide rounded-full focus:outline-none' onClick={handleClickOpen}>
           {buttonName.kr}<br/>{buttonName.en}
         </button>
