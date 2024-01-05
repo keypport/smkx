@@ -54,6 +54,11 @@ export default function RootLayout({
               </div>
             </div>
           </div>
+          <div className='grid'>
+            <div className="text-sm md:text-lg text-stone-400 font-bold justify-self-end px-2 pb-2">
+              @ 2024.01.06 SETEC 1 전시실
+            </div>
+          </div>
           {children}
         </div>
         <ScheduleAlertDialog images={images} sizes={sizes} />
