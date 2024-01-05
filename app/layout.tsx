@@ -77,7 +77,7 @@ export default function RootLayout({
         <ImageAlertDialog buttonName={{kr: '일정표', en: 'Schedule'}} image={scheduleImage} location={scheduleLocation} />
         <ImageAlertDialog buttonName={{kr: '배치도', en: 'Map'}} image={mapImage} location={mapLocation} />
         <TableSliderAlertDialog tables={prizeTables} sizes={sizes} buttonName={{kr: '경품', en: 'Prize'}} location={prizeAlertLocation} />
-        <TableSliderAlertDialog tables={productTables} sizes={sizes} buttonName={{kr: '한정판', en: 'Ltd. Ed.'}} location={productAlertLocation} />
+        <TableSliderAlertDialog tables={productTables} sizes={sizes} buttonName={{kr: '한정판', en: 'Raffle'}} location={productAlertLocation} />
       </body>
     </html>
   )
