@@ -32,8 +32,7 @@ function Arrow({ disabled, onClick, left }: CarouselArrowProps) {
   return (
     <IconButton
       className={`w-[50px] h-[50px] absolute top-[45%] cursor-pointer ${
-        disabled && 'hidden'
-      } ${left ? 'left-[5px]' : 'left-[auto] right-[5px]'}`}
+        disabled && 'hidden'}`}
       disabled={disabled}
       onClick={onClick}
     >
@@ -41,13 +40,13 @@ function Arrow({ disabled, onClick, left }: CarouselArrowProps) {
         <ChevronLeftIcon
           height={30}
           width={30}
-          className="fixed top-1/2 text-gray-200 stroke-[1.5]"
+          className="fixed top-1/2 left-[5px] text-gray-200 stroke-[1.5]"
         />
       ) : (
         <ChevronRightIcon
           height={30}
           width={30}
-          className="fixed top-1/2 text-gray-200 stroke-[1.5]"
+          className="fixed top-1/2 left-[auto] right-[5px] text-gray-200 stroke-[1.5]"
         />
       )}
     </IconButton>
