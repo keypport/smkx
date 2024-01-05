@@ -14,3 +14,23 @@ export interface Image {
   url: string;
   name: string;
 }
+
+export interface Prize {
+  "시간": string;
+  "경품": string;
+  "브랜드": string;
+  "수량": string;
+}
+
+export interface Product {
+  '시간': string;
+  '경품': string;
+  '브랜드': string;
+  '수량': string;
+  '가격': string;
+}
+
+export interface ButtonName {
+  'kr': string;
+  'en': string;
+}
