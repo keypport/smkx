@@ -34,7 +34,7 @@ export default function TableCard({
             })
           }
         </div>
-        <div className={`grid grid-cols-${keys.length} gap-2 p-2 text-xs md:text-base`}>
+        <div className={`grid grid-cols-${keys.length} gap-2 p-2 text-xs md:text-base items-center`}>
           {
             table.map((item, i) => {
               return (
