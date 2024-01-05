@@ -27,17 +27,17 @@ export default function RootLayout({
   const gaId = 'G-J7T26EBV3J';
   const sizes = 'h-full';
   const scheduleImage: Image = require('/public/schedule-image.json');
-  const scheduleLocation = 'bottom-0 right-[280px] md:right-[340px]';
+  const scheduleLocation = 'bottom-0 right-[270px] md:right-[330px]';
   const mapImage: Image = require('/public/map-image.json');
-  const mapLocation = `bottom-0 w-20 right-[200px] md:right-[240px]`;
+  const mapLocation = `bottom-0 w-20 right-[190px] md:right-[230px]`;
   const prizes: Array<Dictionary<String>> = require('/public/prize.json');
   const prizeGroupByTime = _.groupBy(prizes, '시간');
   const prizeTables = Object.entries(prizeGroupByTime).map(([time, table]) => table);
-  const prizeAlertLocation = 'bottom-0 right-[120px] md:right-[150px]'; 
+  const prizeAlertLocation = 'bottom-0 right-[110px] md:right-[140px]'; 
   const products: Array<Dictionary<String>> = require('/public/product.json');
   const prdouctGroupByTime = _.groupBy(products, '시간');
   const productTables = Object.entries(prdouctGroupByTime).map(([time, table]) => table);
-  const productAlertLocation = 'bottom-0 right-[20px] md:right-[30px]'
+  const productAlertLocation = 'bottom-0 right-[20px] md:right-[40px]'
   
   return (
     <html lang="en">
