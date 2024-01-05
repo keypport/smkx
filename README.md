@@ -2,3 +2,5 @@
 --
 
 2024 Seoul Mechanical Keyboard Expo
+
+@ 2024.01.06 SETEC 1 전시실
