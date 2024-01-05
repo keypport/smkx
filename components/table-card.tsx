@@ -5,8 +5,8 @@ type gridColumnsType = {
 }
 
 const gridColumns: gridColumnsType = {
+  3: "grid grid-cols-3",
   4: "grid grid-cols-4",
-  5: "grid grid-cols-5",
 };
 
 export default function TableCard({
@@ -14,16 +14,18 @@ export default function TableCard({
 }: {
     table: Array<Dictionary<String>>;
 }) {
-  const tableKeylength = Object.keys(table[0]).length;
-  
+  const keys = Object.keys(table[0]).slice(1);
   return (
     <>
     {
       table.length > 0 ?
       <div className='p-1 roudned'>
-        <div className={`grid ${gridColumns[tableKeylength ?? 4]} gap-2 p-2 bg-sky-400 text-stone-50 rounded text-base md:text-lg font-bold`}>
+        <div className="grid w-full">
+          <div className="p-1 md:p-2 text-base md:text-xl text-stone-500 font-bold justify-self-center">경품 추첨 및 당첨자 발표 : {table[0]['시간']}</div>
+        </div>
+        <div className={`grid ${gridColumns[keys.length ?? 3]} gap-2 p-2 bg-sky-400 text-stone-50 text-base md:text-lg font-bold rounded`}>
           {
-            Object.keys(table[0]).map((itemKey, itemIndex) => {
+            keys.map((itemKey, itemIndex) => {
               return (
                 <div key={itemIndex}>
                   {itemKey}
@@ -32,13 +34,13 @@ export default function TableCard({
             })
           }
         </div>
-        <div className={`grid grid-cols-${Object.keys(table[0]).length} gap-2 p-2 text-xs md:text-base`}>
+        <div className={`grid grid-cols-${keys.length} gap-2 p-2 text-xs md:text-base`}>
           {
             table.map((item, i) => {
               return (
                 <>
                   {
-                    Object.keys(item).map((itemKey, itemIndex) => {
+                    keys.map((itemKey, itemIndex) => {
                       return (
                         <div key={itemIndex}>{item[itemKey]}</div>
                       )
